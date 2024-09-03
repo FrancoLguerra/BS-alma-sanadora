@@ -1,0 +1,27 @@
+.panel-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2em;
+}
+.card{
+    border:solid 1.5px #b0bd41;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    width: 30% !important;
+}
+.card-img-top{
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+}
+
