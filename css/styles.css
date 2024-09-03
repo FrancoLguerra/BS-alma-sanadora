@@ -1,5 +1,6 @@
 body{
     background-color: aquamarine;
+    
 }
 header{
     display: flex;
@@ -36,4 +37,16 @@ nav select{
 }
 .nav-link{
     color:aliceblue !important;
+}
+footer{
+    height: 6em;
+    background-color: #360e46;
+}
+#whatsapp{
+  
+    height: auto;
+    width: 3em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
 }

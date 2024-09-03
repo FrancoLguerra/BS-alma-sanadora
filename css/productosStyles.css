@@ -24,4 +24,14 @@
     border-radius: 10px 10px 0 0;
     height: 200px;
 }
+.btn{
+    background-color: #b0bd41;
+    border: none;
+}
+.btn:hover{
+    background-color: #e4f362;
+    color: rgb(104, 54, 161);
+    font-weight: bold;
+
+}
 
