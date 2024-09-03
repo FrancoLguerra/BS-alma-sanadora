@@ -1,7 +1,39 @@
-logo-nav{
-    width: 10%;
-    height: 100px;
+body{
+    background-color: aquamarine;
+}
+header{
+    display: flex;
+    justify-content: center;
+
+}
+.navbar{
+    width: 90%;
+    height: 6em;
+    border-radius: 21px;
+    background-color: #360e46;
+    margin-top: 1em;
+}
+.navbar-brand{
+
+    width: 4em ;
+    
+}
+.logo-nav{
+    width: 100%;
     margin: 0 auto;
     display: block;
-    margin-top: 20px;
+    border-radius: 50px;
+
+}
+.estilo-select{
+    position: relative;
+    z-index: 1050;
+}
+nav select{
+    background-color: #360e46;
+    color: aliceblue;
+    border: none;
+}
+.nav-link{
+    color:aliceblue !important;
 }
