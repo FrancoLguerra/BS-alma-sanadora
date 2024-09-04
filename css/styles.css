@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(245, 245, 245);
     
 }
 header{
@@ -77,4 +77,29 @@ footer{
 .bienvenida div h2{
     font-size: 3em;
     margin: 0 auto;
+}
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5em;
+    color: aliceblue;
+    padding-bottom: 1.5em;
+}
+.nosotros div{
+    display: flex;
+    height: 80vh;
+    width: 80%;
+    background-color: rgba(159, 21, 187, 0.5);
+    opacity: 0.2;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 21px;
+    flex-direction: column;
+    opacity: 0.8;
+    color:white;
+    align-items: center;
+    justify-content: center;
+
 }
