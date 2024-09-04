@@ -20,9 +20,20 @@
     color: white;
     width: 30% !important;
 }
+.card-inicio{
+    border:solid 1.5px #b0bd41;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    width: 40% !important;
+}
 .card-img-top{
     border-radius: 10px 10px 0 0;
     height: 200px;
+}
+.card-text-scroll{
+    max-height: 5em; /* Altura máxima antes de que aparezca el scroll */
+    overflow-y: auto; 
 }
 .btn{
     background-color: #b0bd41;
@@ -33,5 +44,16 @@
     color: rgb(104, 54, 161);
     font-weight: bold;
 
+}
+::-webkit-scrollbar-track {
+    background: #861414; /* Color del track */
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #b0bd41; /* Color del thumb */
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #e4f362; /* Color del thumb al pasar el mouse */
 }
 
