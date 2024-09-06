@@ -12,6 +12,7 @@
     justify-content: center;
     flex-direction: column;
     padding-top: 2em;
+    
 }
 .card{
     border:solid 1.5px #b0bd41;
@@ -20,6 +21,7 @@
     color: white;
     width: 30% !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 .card:hover{
     transform: scale(1.1);
@@ -31,7 +33,7 @@
     border-radius: 10px;
     background-color: blueviolet;
     color: white;
-    width: 40% !important;
+    width: 45% !important;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card-inicio:hover{
