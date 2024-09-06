@@ -152,3 +152,47 @@ footer{
 .info-footer p{
     margin: 0;
 }
+
+@media  screen and (max-width: 768px){
+    .bienvenida div{
+        height: 100vh;
+    }
+
+    .nosotros div{
+        height: auto;
+    }
+    footer{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .red-social{
+        flex-direction: column;
+        padding: 0;
+    }
+    .info-footer{
+        flex-direction: column;
+        width: 100%        i
+    }
+
+    .logo-footer{
+        display:none;
+    }
+    .info-footer p{
+        margin: 0;
+    }
+    .navbar-nav{
+        background-color: rgb(216, 116, 219);
+        border-radius: 10px;
+        align-items: center;
+    }
+    .nav-item{
+        position: relative;
+        z-index: 1100 !important;
+    }
+}

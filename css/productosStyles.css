@@ -55,15 +55,13 @@
     font-weight: bold;
 
 }
-::-webkit-scrollbar-track {
-    background: #861414; /* Color del track */
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb {
-    background: #b0bd41; /* Color del thumb */
-    border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #e4f362; /* Color del thumb al pasar el mouse */
+
+@media  screen and (max-width: 768px){
+
+.card{
+    width: 80% !important;}
+.card-inicio{
+    width: 80% !important;
 }
 
+}
