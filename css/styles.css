@@ -39,10 +39,7 @@ nav select{
 .nav-link{
     color:aliceblue !important;
 }
-footer{
-    height: 6em;
-    background-color: #360e46;
-}
+
 #whatsapp{
   
     height: auto;
@@ -101,5 +98,57 @@ footer{
     color:white;
     align-items: center;
     justify-content: center;
+}
+footer{
+    display: flex;
+    height: 6em;
+    background-color: #360e46;
+    margin-bottom: 0.3em;
+    flex-direction: row;
+}
+.footer{
+    width: 50%;
+    display: flex;
+    align-items: center;
+  
 
+}
+.red-social{
+    display: flex;
+    width: 100%;
+    display: flex;
+    padding-left: 0.5em;
+
+}
+.red-social a{
+    width: 100%;
+    margin: 0.2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.red-social a p{
+    margin-bottom: 0 !important;
+    margin-left: 1%;
+}
+.logo-footer{
+    width: 5em;
+    height: 5em;
+    
+}
+.logo-footer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.info-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    color:white;
+    align-items: center;
+}
+.info-footer p{
+    margin: 0;
 }
