@@ -75,6 +75,22 @@ nav select{
     font-size: 3em;
     margin: 0 auto;
 }
+.info{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 1.5em;
+    color: aliceblue;
+    padding-bottom: 1.5em;
+    height: 100vh;
+}
+.info > .articulo{
+    width: 90%;
+    background-color:rgba(159, 21, 187, 0.5) ;
+    text-align: center;
+
+}
 .nosotros{
     display: flex;
     justify-content: center;
