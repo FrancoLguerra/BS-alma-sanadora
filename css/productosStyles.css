@@ -57,6 +57,16 @@
     font-weight: bold;
 
 }
+.btnsProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+    align-items: center;
+}
+.btnsProductos > .btn{
+    width: 40% !important;
+}
 
 @media  screen and (max-width: 768px){
 
